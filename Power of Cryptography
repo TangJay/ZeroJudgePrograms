@@ -1,0 +1,6 @@
+while True:
+    number = int(input())
+    numberPower = int(input())
+    numberPower = round(numberPower ** (1 / number))
+    print(numberPower)
+    break
